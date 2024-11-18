@@ -2,31 +2,98 @@
 nav {
     background-color: darkblue;
     padding: 10px;
-  }
-  
-  /* Style for links within the navigation bar */
-  nav a {
+}
+
+/* Style for links within the navigation bar */
+nav a {
     color: white;
     display: block;
     padding: 20px;
-  }
-  
-  /* Style for the main heading */
-  h1 {
+    text-decoration: none;  /* Remove underline */
+}
+
+/* Hover effect for the links */
+nav a:hover {
+    background-color: lightblue;  /* Changes background on hover */
+    color: darkblue;              /* Changes text color on hover */
+}
+
+/* Style for the main heading */
+h1 {
     color: darkblue;
-  }
-  
-  /* Style for images */
-  img {
+}
+
+/* Style for images (Global) */
+img {
     width: 150px;
     height: auto;
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-  }
-  
-  /* Style for paragraph elements */
-  p {
+    max-width: 100%;  /* Ensures images scale down in smaller screens */
+}
+
+/* Specific style for images inside <aside> */
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+/* Style for paragraph elements */
+p {
     padding: 10px;
-  }
-  
+}
+
+/* Style for <main> element to limit its width */
+main {
+    max-width: 840px;
+    margin: 0 auto; /* Optional: centers the main content */
+}
+
+/* Style for the <aside> element */
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* Subtle transparent border */
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+/* Style for <footer> element */
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+    padding: 10px 0;  /* Add some padding to make it more visually appealing */
+    background-color: #f1f1f1;  /* Optional: give a light background color */
+}
+
+/* Optional: Ensure the footer stays at the bottom on small pages */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;  /* Push the footer to the bottom of the page */
+}
+
+/* Example responsive design for smaller screens */
+@media (max-width: 768px) {
+    aside {
+        width: 100%;  /* Allow <aside> to take up full width on smaller screens */
+        margin: 0;    /* Remove margin for better use of screen space */
+    }
+
+    nav a {
+        padding: 10px;  /* Reduce padding for smaller screens */
+    }
+}
