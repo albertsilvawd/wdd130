@@ -1,14 +1,17 @@
+/* Global Styles and Resets */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
+  /* Body Styles */
   body {
     font-size: 16px;
     font-family: Roboto, Arial, sans-serif;
   }
   
+  /* Navigation */
   nav {
     background-color: steelblue;
     padding: 10px;
@@ -20,11 +23,13 @@
     display: block; 
   }
   
+  /* Heading Styles */
   h1 {
     color: steelblue;
-    padding: 0.5rem; /* Fixed missing semicolon */
+    padding: 0.5rem; /* Ensures consistent spacing */
   }
   
+  /* Main Content */
   main {
     max-width: 640px;
   }
@@ -34,7 +39,7 @@
     height: auto;
     border: 1px solid steelblue;
     padding: 2px; 
-    box-shadow: 0 0 30px gray; /* Fixed invalid value: removed the extra '0' in '030px' */
+    box-shadow: 0 0 30px gray; /* Corrected box-shadow syntax */
     float: right;
     margin: 0 0 1rem 1rem;
   }
@@ -43,6 +48,7 @@
     margin: 1rem;
   }
   
+  /* Aside Section */
   aside {
     width: 20rem; 
     text-align: center; 
@@ -57,9 +63,10 @@
   aside h2 {
     position: absolute;
     top: 26px;
-    left: 135px; /* Fixed missing semicolon */
+    left: 135px; /* Ensures proper alignment */
   }
   
+  /* Footer Styles */
   footer {
     margin-top: 1em;
     border-top: 1px solid #000; 
