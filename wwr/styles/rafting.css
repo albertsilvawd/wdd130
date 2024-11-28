@@ -6,8 +6,8 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #82d0e7;
+    font-family: 'Roboto', sans-serif;
+    background-color: #B4CDE4; /* Usando Accent2 como fundo */
 }
 
 .container {
@@ -18,7 +18,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #13629f;
+    background-color: #264969; /* Secondary Color */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -38,14 +38,15 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #CFCFB4; /* Accent1 Color */
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     padding: 5px 10px;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: #0066cc;
+    color: #505033; /* Primary Color */
 }
 
 /* Hero Section Styles */
@@ -70,7 +71,9 @@ nav a:hover {
     left: 0;
     width: 100%;
     text-align: center;
-    color: white;
+    color: #CFCFB4; /* Accent1 Color */
+    font-family: 'Georgia', serif;
+    font-weight: 700;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -83,7 +86,7 @@ nav a:hover {
     bottom: 50px;
     left: 50px;
     right: 50px;
-    background-color: rgba(0, 51, 102, 0.85);
+    background-color: rgba(38, 73, 105, 0.85); /* Secondary Color com transparência */
     color: white;
     padding: 20px;
     border-radius: 5px;
@@ -97,6 +100,8 @@ nav a:hover {
 .hero-box p {
     flex: 1;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     font-size: 1.1rem;
     line-height: 1.5;
 }
@@ -128,11 +133,13 @@ article img.client-img {
 
 article p {
     line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* Section Styles */
 section {
-    background-color: white;
+    background-color: #CFCFB4; /* Accent1 Color */
     padding: 40px;
     margin: 0 auto 40px;
     border-radius: 5px;
@@ -140,20 +147,23 @@ section {
 }
 
 section h2 {
-    color: #333;
+    color: #505033; /* Primary Color */
     margin-bottom: 20px;
-    font-weight: 100;
+    font-family: 'Georgia', serif;
+    font-weight: 700;
     font-size: 2rem;
 }
 
 section p {
     line-height: 1.6;
     color: #666;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 /* History Section Specific */
 .history {
-    background-color: #f9f9f9;
+    background-color: #B4CDE4; /* Accent2 Color */
 }
 
 /* Adventure Section Specific */
@@ -170,7 +180,7 @@ section p {
 
 /* Footer Styles */
 footer {
-    background-color: #ff9900;
+    background-color: #505033; /* Primary Color */
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -181,7 +191,9 @@ footer {
 }
 
 footer p {
-    color: #333;
+    color: #CFCFB4; /* Accent1 Color */
+    font-family: 'Georgia', serif;
+    font-weight: 700;
 }
 
 .social-links {
