@@ -5,9 +5,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #505033;
+    --secondary-color: #264969;
+    --accent1-color: #CFCFB4;
+    --accent2-color: #B4CDE4;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #B4CDE4; /* Usando Accent2 como fundo */
+    background-color: var(--accent2-color); /* Usando Accent2 como fundo */
 }
 
 .container {
@@ -18,7 +25,7 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #264969; /* Secondary Color */
+    background-color: var(--secondary-color); /* Secondary Color */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -38,7 +45,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #CFCFB4; /* Accent1 Color */
+    color: var(--accent1-color); /* Accent1 Color */
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     padding: 5px 10px;
@@ -46,7 +53,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #505033; /* Primary Color */
+    color: var(--primary-color); /* Primary Color */
 }
 
 /* Hero Section Styles */
@@ -71,7 +78,7 @@ nav a:hover {
     left: 0;
     width: 100%;
     text-align: center;
-    color: #CFCFB4; /* Accent1 Color */
+    color: var(--accent1-color); /* Accent1 Color */
     font-family: 'Georgia', serif;
     font-weight: 700;
     font-size: 3rem;
@@ -139,7 +146,7 @@ article p {
 
 /* Section Styles */
 section {
-    background-color: #CFCFB4; /* Accent1 Color */
+    background-color: var(--accent1-color); /* Accent1 Color */
     padding: 40px;
     margin: 0 auto 40px;
     border-radius: 5px;
@@ -147,7 +154,7 @@ section {
 }
 
 section h2 {
-    color: #505033; /* Primary Color */
+    color: var(--primary-color); /* Primary Color */
     margin-bottom: 20px;
     font-family: 'Georgia', serif;
     font-weight: 700;
@@ -163,7 +170,7 @@ section p {
 
 /* History Section Specific */
 .history {
-    background-color: #B4CDE4; /* Accent2 Color */
+    background-color: var(--accent2-color); /* Accent2 Color */
 }
 
 /* Adventure Section Specific */
@@ -180,7 +187,7 @@ section p {
 
 /* Footer Styles */
 footer {
-    background-color: #505033; /* Primary Color */
+    background-color: var(--primary-color); /* Primary Color */
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -191,7 +198,7 @@ footer {
 }
 
 footer p {
-    color: #CFCFB4; /* Accent1 Color */
+    color: var(--accent1-color); /* Accent1 Color */
     font-family: 'Georgia', serif;
     font-weight: 700;
 }
