@@ -1,4 +1,4 @@
-/* CSS Reset e estilos base */
+/* CSS Reset and Base Styles */
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +58,7 @@ nav a:hover {
 
 /* Hero Section Styles */
 .hero {
-    position: relative;
+    position: relative;  /* The hero div is positioned relative */
     width: 100%;
     max-width: 1400px;
     height: 500px;
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 .hero h1 {
-    position: absolute;
+    position: absolute; /* Position the h1 absolutely */
     top: 50px;
     left: 0;
     width: 100%;
@@ -89,11 +89,11 @@ nav a:hover {
 }
 
 .hero-box {
-    position: absolute;
+    position: absolute; /* Position the article absolutely */
     bottom: 50px;
     left: 50px;
     right: 50px;
-    background-color: rgba(38, 73, 105, 0.85); /* Secondary Color com transparência */
+    background-color: rgba(38, 73, 105, 0.85); /* Secondary Color with transparency */
     color: white;
     padding: 20px;
     border-radius: 5px;
