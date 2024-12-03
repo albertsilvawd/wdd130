@@ -13,7 +13,7 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', 'sans-serif';
     background-color: var(--accent2-color); /* Usando Accent2 como fundo */
 }
 
@@ -97,7 +97,7 @@ nav a:hover {
 
 .hero-box {
     position: absolute; /* Position the article absolutely */
-    bottom: 50px;
+    bottom: 110px;
     left: 50px;
     right: 50px;
     background-color: rgba(38, 73, 105, 0.85); /* Secondary Color with transparency */
@@ -141,10 +141,12 @@ article img.client-img {
     height: auto;
     border-radius: 5px;
     margin: 0 0 20px 20px;
+    position: relative;
+    top: -53px;
 }
 
 article p {
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 /* Section Styles */
