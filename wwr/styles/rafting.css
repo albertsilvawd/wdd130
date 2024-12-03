@@ -31,7 +31,7 @@ header {
     align-items: center;
     border-bottom: 1px solid #B4CDE4;
     max-width: 1000px;
-    background-color: #B4CDE4
+    background-color: #B4CDE4; /* Fixed missing semicolon */
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -117,6 +117,7 @@ nav a:hover {
     font-size: 1.1rem;
     line-height: 1.5;
 }
+
 .hero-box-img {
     width: 200px;
     height: 150px;
@@ -174,12 +175,12 @@ section p {
     text-align: center;
 }
 
-.history-content{
+.history-content {
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.history-row{
+.history-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -187,14 +188,14 @@ section p {
     text-align: justify;
 }
 
-.history-row p{
+.history-row p {
     flex: 1;
     font-size: 1rem;
     line-height: 1.6;
     margin: 0 10px;
 }
 
-.history-img{
+.history-img {
     width: 200px;
     height: auto;
     object-fit: cover;
@@ -214,10 +215,10 @@ section p {
 }
 
 /* Adventure Gallery Styling */
-.adventure-gallery{
+.adventure-gallery {
     display: flex;
-    flex-wrap: wrap;/* Ensures it wraps if there isn't enough space */
-    gap: 20px  ; 
+    flex-wrap: wrap; /* Ensures it wraps if there isn't enough space */
+    gap: 20px;
     justify-content: center;
     padding-top: 20px;
 }
