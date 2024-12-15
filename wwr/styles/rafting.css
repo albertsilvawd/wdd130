@@ -14,7 +14,7 @@
 
 body {
     font-family: 'Roboto', 'sans-serif';
-    background-color: var(--accent2-color); /* Usando Accent2 como fundo */
+    background-color: var(--accent2-color); /* Background color */
 }
 
 .container {
@@ -25,18 +25,14 @@ body {
 
 /* Header Styles */
 header {
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 120px 1fr 2fr;
-    align-items: center;
-    border-bottom: 1px solid #B4CDE4;
-    max-width: 1000px;
-    background-color: #B4CDE4; /* Fixed missing semicolon */
-    padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    border-bottom: 1px solid #B4CDE4;
+    max-width: 1000px;
+    background-color: #B4CDE4;
+    padding: 20px;
+    margin: 1rem auto 20px;
 }
 
 .logo {
@@ -52,21 +48,21 @@ nav {
 nav a {
     display: block;
     text-decoration: none;
-    color: var(--primary-color); /* Accent1 Color */
+    color: var(--primary-color);
     font-weight: 400;
     padding: 20px;
     transition: color 0.3s ease;
 }
 
 nav a:hover {
-    color: var(--primary-color); /* Primary Color */
+    color: var(--primary-color);
     font-weight: 700;
     text-decoration: underline;
 }
 
 /* Hero Section Styles */
 .hero {
-    position: relative; /* The hero div is positioned relative */
+    position: relative;
     width: 100%;
     max-width: 1400px;
     height: 500px;
@@ -81,33 +77,33 @@ nav a:hover {
 }
 
 .hero h1 {
-    position: absolute; /* Position the h1 absolutely */
+    position: absolute;
     top: 50px;
     left: 0;
     width: 100%;
     text-align: center;
-    color: var(--accent1-color); /* Accent1 Color */
+    color: var(--accent1-color);
     font-weight: 700;
     font-size: 3rem;
     text-transform: uppercase;
     letter-spacing: 3px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
-    z-index: 2; /* Positioned above the image */
+    z-index: 2;
 }
 
 .hero-box {
-    position: absolute; /* Position the article absolutely */
+    position: absolute;
     bottom: 110px;
     left: 50px;
     right: 50px;
-    background-color: rgba(38, 73, 105, 0.85); /* Secondary Color with transparency */
+    background-color: rgba(38, 73, 105, 0.85);
     color: white;
     padding: 20px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 20px;
-    z-index: 2; /* Positioned above the image */
+    z-index: 2;
     backdrop-filter: blur(5px);
 }
 
@@ -151,7 +147,7 @@ article p {
 
 /* Section Styles */
 section {
-    background-color: var(--accent1-color); /* Accent1 Color */
+    background-color: var(--accent1-color);
     padding: 40px;
     margin: 0 auto 40px;
     border-radius: 5px;
@@ -159,7 +155,7 @@ section {
 }
 
 section h2 {
-    color: var(--primary-color); /* Primary Color */
+    color: var(--primary-color);
     margin-bottom: 20px;
     font-weight: 100;
     font-size: 2rem;
@@ -172,7 +168,7 @@ section p {
 
 /* History Section Specific */
 .history {
-    background-color: var(--accent2-color); /* Accent2 Color */
+    background-color: var(--accent2-color);
     padding: 60px 20px;
     text-align: center;
 }
@@ -219,17 +215,17 @@ section p {
 /* Adventure Gallery Styling */
 .adventure-gallery {
     display: flex;
-    flex-wrap: wrap; /* Ensures it wraps if there isn't enough space */
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
     padding-top: 20px;
 }
 
 .adventure-gallery figure {
-    flex: 1; /* Allows flexible size adjustment for each figure */
-    max-width: 300px; /* Restricts the max size for each image */
+    flex: 1;
+    max-width: 300px;
     text-align: center;
-    margin: 0; /* Removes default margin for figures */
+    margin: 0;
 }
 
 .adventure-gallery img {
@@ -254,7 +250,7 @@ section p {
 
 /* Footer Styles */
 footer {
-    background-color: #264969; /* Primary Color */
+    background-color: #264969;
     padding: 30px;
     border-radius: 5px;
     display: flex;
@@ -265,7 +261,7 @@ footer {
 }
 
 footer p {
-    color: var(--accent1-color); /* Accent1 Color */
+    color: var(--accent1-color);
 }
 
 .social-links {
@@ -329,7 +325,10 @@ footer p {
     }
 }
 
-/* Contact Page Additions */
-.contact-form {
-    /* Your styles for contact.html */
+/* Contact Us Map */
+.map-iframe {
+    border: 0;
+    width: 100%;
+    height: 450px;
+    border-radius: 5px;
 }
