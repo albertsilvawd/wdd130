@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     font-family: 'Playfair Display', serif;
-    font-size: 2em;
+    font-size: 3em;
     color: var(--primary-color);
     margin-bottom: 1em;
 }
@@ -156,9 +156,9 @@ article {
     max-width: 100%;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgba(238, 222, 222, 0.6);
+    background-color: rgba(220, 228, 200, 0.6);
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(174, 157, 157, 0.1);
+    box-shadow: 0 4px 8px rgba(115, 35, 35, 0.1);
     gap: 20px;
     align-items: center;
     width: 70%;
@@ -169,15 +169,15 @@ article img {
     width: 100%;
     max-width: 300px;
     border-radius: 10px;
-    float: right;
+    float: left;
     margin-left: 20px;
     margin-top: -8%;
 }
 
 /* Paragraph inside article */
 article p {
-    flex: 1;
-    margin-left: 0;
+    flex: 2;
+    margin-left: 2;
 }
 
 /* History Section */
@@ -322,7 +322,7 @@ footer {
 }
 
 .social-links a:hover {
-    background-color: #E0A52B; 
+    background-color: #ebd2a1; 
     transform: translateY(-2px);
 }
 
@@ -452,7 +452,7 @@ footer p {
 
 .contact-details a:hover {
     text-decoration: underline;
-    color: #E0A52B;
+    color: #ebd2a1;
 }
 
 .map-container {
@@ -569,13 +569,13 @@ legend {
     position: relative;
     width: 100%;
     height: 80vh;
-    background-image: url('../images/home-hero-img.jpg');
+    background-image: url('../images/home-hero-img.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #eeeecf;
     text-align: center;
     padding-top: 30px;
     border-radius: 15px;
@@ -599,7 +599,7 @@ legend {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   margin-bottom: 10px;
   width: 100%;
-  color: white;
+  color: #eeeecf;
   font-size: 3.5em;
   margin: 0;
   position: relative;
@@ -608,7 +608,7 @@ legend {
   transform: translateX(-10%);
   padding: 10px 20px;
   background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  color: #eeeecf;
   border-radius: 10px;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
   width: 97%;
@@ -617,7 +617,7 @@ legend {
 .home-hero p {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    color: white;
+    color: #eeeecf;
     z-index: 3;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
@@ -755,7 +755,7 @@ legend {
 }
 
 .newsletter {
-    background-color: #f0f8ff; 
+    background-color:  #eeeecf; 
     padding: 2em;
     text-align: center;
 }
@@ -824,181 +824,6 @@ form:valid .thank-you-message {
     text-align: center;
 }
 
-/* Specific Hero Section Styling for the Trips Page */
-.trips-hero {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    background-image: url('../images/trips-hero1.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    border-radius: 15px;
-    transform: scale(1); 
-    transition: transform 1.5s ease; 
-}
-
-.trips-hero-content {
-    position: relative;
-    z-index: 2;
-    padding: 20px;
-    max-width: 800px;
-}
-
-.trips-hero h1 {
-  font-size: 3.5rem;
-  margin: 0;
-  padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-  margin-bottom: 10px;
-  width: 100%;
-  color: white;
-}
-
-.trips-hero h1 {
-    font-size: 3.5em;
-    margin: 0;
-    position: relative;
-    top: 5%;
-    left: 50%;
-    transform: translateX(-50%);
-    padding: 10px 20px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border-radius: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    width: 97%;
-}
-
-.trips-hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-    color: white;
-    z-index: 3;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 5px;
-}
-
-/*Our Trips */
-/* Trips Section Specific Styles */
-main .trip-descriptions {
-    padding: 50px 0;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-main .trip-descriptions .trip {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 30px;
-    align-items: center;
-    transition: transform 0.3s ease;
-}
-
-main .trip-descriptions .trip img {
-    width: 40%;
-    border-radius: 10px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-main .trip-descriptions .trip-info {
-    width: 55%;
-}
-
-main .trip-descriptions .trip h3 {
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-
-main .trip-descriptions .trip p {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-}
-
-main .trip-descriptions .cta-button {
-    background-color: #cc8b27;
-    color: #291e1e;
-    padding: 12px 30px;
-    font-size: 1.2rem;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 15px;
-}
-
-main .trip-descriptions .cta-button:hover {
-    background-color: #9a6f1d;
-}
-
-main .trip-descriptions .trip img:hover {
-    transform: scale(1.05); /* Scale image slightly on hover */
-}
-
-/* Trip Table Specific Styles */
-main .trip-table {
-    padding: 30px;
-    background-color: #fff;
-    margin-top: 40px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-main .trip-table table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-main .trip-table th,
-main .trip-table td {
-    padding: 12px;
-    text-align: center;
-    border: 1px solid #ddd;
-}
-
-main .trip-table th {
-    background-color: var(--primary-color);
-    color: white;
-}
-
-main .trip-table td {
-    font-size: 1rem;
-}
-
-
-
-
-.home-hero {
-    position: relative;
-    width: 100%;
-    height: 80vh;
-    background-image: url('../images/home-hero-image.jpg');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-align: center;
-    padding-top: 30px;
-    border-radius: 15px;
-    transform: scale(1); 
-    transition: transform 1.5s ease; 
-}
-
-.home-hero-content {
-    position: relative;
-    z-index: 2;
-    padding: 20px;
-    max-width: 800px;
-}
-
 .home-hero h1 {
   font-size: 3.5rem;
   margin: 0;
@@ -1036,7 +861,7 @@ main .trip-table td {
 .cta-button {
   display: inline-block;
   padding: 10px 20px;
-  background-color: #cc8b27;
+  background-color: #ebd2a1;
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -1091,7 +916,7 @@ main .trip-table td {
 .cta-button {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #cc8b27;
+    background-color: #ebd2a1;
     color: #291e1e;
     font-weight: bold;
     text-decoration: none;
@@ -1100,7 +925,7 @@ main .trip-table td {
     margin-bottom: 20px;
 }
 .cta-button:hover {
-    background-color: #9a6f1d;
+    background-color: #ebd2a1;
 }
 
 /* Gallery Display*/
@@ -1204,7 +1029,7 @@ main .trip-table td {
     padding: 1em 2em;
     font-size: 1.2em;
     font-weight: bold;
-    background-color: #cc8b27;
+    background-color: #ebd2a1;
     color: #291e1e;
     border: none;
     border-radius: 5px;
@@ -1212,7 +1037,7 @@ main .trip-table td {
 }
 
 .newsletter button:hover {
-    background-color: #9a6f1d; /* Darker green on hover */
+    background-color: #ebd2a1; /* Darker green on hover */
 }
 
 .hidden-checkbox {
@@ -1235,7 +1060,7 @@ form:valid .thank-you-message {
 
 /* Specific Hero Section Styling for the Trips Page */
 .trips-hero {
-    position: relative;
+    position: center;
     width: 100%;
     height: 80vh;
     background-image: url('../images/trips-hero1.jpg');
@@ -1253,7 +1078,7 @@ form:valid .thank-you-message {
 }
 
 .trips-hero-content {
-    position: relative;
+    position: center;
     z-index: 2;
     padding: 20px;
     max-width: 800px;
@@ -1274,7 +1099,7 @@ form:valid .thank-you-message {
 .trips-hero h1 {
     font-size: 3.5em;
     margin: 0;
-    position: relative;
+    position: center;
     top: 5%;
     left: 50%;
     transform: translateX(-50%);
@@ -1300,7 +1125,7 @@ form:valid .thank-you-message {
 /* Trips Section Specific Styles */
 main .trip-descriptions {
     padding: 50px 0;
-    background-color: #f4f4f4;
+    background-color:  #eeeecf;
     text-align: center;
 }
 
@@ -1334,7 +1159,7 @@ main .trip-descriptions .trip p {
 }
 
 main .trip-descriptions .cta-button {
-    background-color: #cc8b27;
+    background-color: #ebd2a1;
     color: #291e1e;
     padding: 12px 30px;
     font-size: 1.2rem;
@@ -1344,7 +1169,7 @@ main .trip-descriptions .cta-button {
 }
 
 main .trip-descriptions .cta-button:hover {
-    background-color: #9a6f1d;
+    background-color: #ebd2a1;
 }
 
 main .trip-descriptions .trip img:hover {
@@ -1354,7 +1179,7 @@ main .trip-descriptions .trip img:hover {
 /* Trip Table Specific Styles */
 main .trip-table {
     padding: 30px;
-    background-color: #fff;
+    background-color: #eeeecf;
     margin-top: 40px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -1368,7 +1193,7 @@ main .trip-table th,
 main .trip-table td {
     padding: 12px;
     text-align: center;
-    border: 1px solid #ddd;
+    border: 1px solid #9f9898;
 }
 
 main .trip-table th {
@@ -1379,3 +1204,11 @@ main .trip-table th {
 main .trip-table td {
     font-size: 1rem;
 }
+
+main .trip-table h2 {
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto; /* Ajusta margens laterais */
+    font-size: 2.5rem; /* Ajuste opcional para tamanho */
+    color: var(--primary-color); /* Cor conforme seu tema */
+}
+
