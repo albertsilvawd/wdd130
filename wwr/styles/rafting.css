@@ -661,7 +661,7 @@ legend {
 .intro {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f4f4f4;
+    background-color: #eeeecf;
     color: #333;
 }
 
@@ -895,7 +895,7 @@ form:valid .thank-you-message {
 .intro {
     text-align: center;
     padding: 60px 20px;
-    background-color: #f4f4f4;
+    background-color: #eeeecf;
     color: #333;
 }
 
@@ -970,7 +970,7 @@ form:valid .thank-you-message {
 }
 
 .intro .image-gallery figcaption {
-    background-color: rgba(200, 200, 200, 0.6);
+    background-color: rgba(148, 169, 216, 0.57);
     color: black;
     padding: 10px;
     border-radius: 0 0 10px 10px;
