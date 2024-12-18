@@ -544,7 +544,7 @@ legend {
 }
 
 .submit-button:hover {
-    background-color: #cc8b27;
+    background-color: #ebd2a1;
     transform: translateY(-2px);
 }
 
@@ -654,7 +654,7 @@ legend {
   }
 
 .cta-button-book-now:hover {
-    background-color: #4C688D;
+    background-color: #031731;
 }
 
 /*Intro Section*/
@@ -691,7 +691,7 @@ legend {
     margin-bottom: 20px;
 }
 .cta-button:hover {
-    background-color: #9a6f1d;
+    background-color:#ebd2a1;
 }
 
 /* Gallery Display*/
@@ -714,7 +714,7 @@ legend {
     height: 270px;
     object-fit: cover;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
 .intro .image-gallery figure {
@@ -736,7 +736,7 @@ legend {
 }
 
 .intro .image-gallery figcaption {
-    background-color: rgba(200, 200, 200, 0.6);
+    background-color: #eeeecf;
     color: black;
     padding: 10px;
     border-radius: 0 0 10px 10px;
@@ -795,7 +795,7 @@ legend {
     padding: 1em 2em;
     font-size: 1.2em;
     font-weight: bold;
-    background-color: #cc8b27;
+    background-color: #ebd2a1;
     color: #291e1e;
     border: none;
     border-radius: 5px;
@@ -803,7 +803,7 @@ legend {
 }
 
 .newsletter button:hover {
-    background-color: #9a6f1d; /* Darker green on hover */
+    background-color:#ebd2a1; /* Darker green on hover */
 }
 
 .hidden-checkbox {
